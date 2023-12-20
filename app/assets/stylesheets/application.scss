@@ -52,3 +52,26 @@ body {
 .nav-item:not(:first-child) {
     margin-left: 30px;
 }
+
+.landing-left {
+    .dummy-phone {
+        background-image: image-url("dummy-phone-2x.png");
+        background-repeat: no-repeat;
+        background-position: right 0;
+        background-size: 454px 618px;
+        position: relative;
+        height: 618px;
+        margin-left: -35px;
+        margin-right: -15px;
+    }
+
+    .screenshot {
+        position: absolute;
+        top: 99px;
+        right: 63px;
+
+        .item {
+            position: absolute;
+        }
+    }
+}
