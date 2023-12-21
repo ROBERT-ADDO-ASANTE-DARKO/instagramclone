@@ -130,3 +130,26 @@ footer .nav-item {
     font-size: 12px;
     font-weight: bold;
 }
+
+.light-color {
+    color: #999;
+}
+
+.carousel-fade {
+    .carousel-item.active {
+        opacity: 1;
+        display: block;
+    }
+
+    .carousel-item {
+        transition: opacity 0.6s ease-in-out;
+        opacity: 1;
+        position: relative;
+        display: block;
+    }
+
+    .carousel-item:not(.active) {
+        position: absolute;
+        top: 0px;
+    }
+}
