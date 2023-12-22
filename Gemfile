@@ -71,3 +71,5 @@ gem "devise", "~> 4.9"
 gem "bootstrap", "~> 4.0"
 
 gem "jquery-rails", "~> 4.6"
+
+gem 'toastr-rails', '~> 1.0', '>= 1.0.3'

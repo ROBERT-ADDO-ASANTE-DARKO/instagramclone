@@ -4,3 +4,4 @@ import "controllers"
 //= require turbolinks
 //= require jquery3
 //= require bootstrap-sprockets
+//= require toastr
