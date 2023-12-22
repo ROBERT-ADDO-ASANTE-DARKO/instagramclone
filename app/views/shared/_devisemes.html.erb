@@ -1,0 +1,14 @@
+<% if flash[:error] %>
+ <div class="alert alert-danger">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <%= flash[:error] %>
+ </div>
+<% end %>
+
+<!--<% if resource.errors.any? %>
+    <script type="text/javascript">
+        <% resource.errors.full_messages.each do |value| %>
+            toastr.error('<%= value %>')
+        <% end %>
+    </script>
+<% end %>-->

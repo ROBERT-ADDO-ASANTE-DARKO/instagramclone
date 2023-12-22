@@ -12,8 +12,9 @@
 
   <body>
     <%= render 'shared/navbar' if current_user %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%= render 'shared/flash_messages'%>
+    <!--<p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>-->
     <%= yield %>
     <%= render 'shared/footer' %>
 
