@@ -73,3 +73,7 @@ gem "bootstrap", "~> 4.0"
 gem "jquery-rails", "~> 4.6"
 
 gem 'toastr-rails', '~> 1.0', '>= 1.0.3'
+
+gem "omniauth", "~> 2.1"
+
+gem "omniauth-twitter", "~> 1.4"
